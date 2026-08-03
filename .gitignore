@@ -1,0 +1,51 @@
+### IntelliJ / IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Java / Maven ###
+target/
+*.class
+*.jar
+*.war
+*.log
+.mvn/
+mvnw
+mvnw.cmd
+
+### Node / Vite / 前端 ###
+node_modules/
+dist/
+dist-ssr/
+*.local
+.pnpm-store/
+
+### 环境变量 / 敏感配置 ###
+.env
+.env.local
+.env.*.local
+
+### 日志 ###
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+### 系统文件 ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Editor ###
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
