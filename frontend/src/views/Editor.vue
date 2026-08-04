@@ -167,6 +167,11 @@ async function handleSave() {
     }
     status.value = 1
     ElMessage.success('保存成功')
+    // 清空表单
+    title.value = '未命名作品'
+    status.value = 0
+    novelId.value = null
+    novelStore.clearCurrent()
   } finally {
     saving.value = false
   }
